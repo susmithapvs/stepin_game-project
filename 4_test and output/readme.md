@@ -1,3 +1,25 @@
+
+TEST PLAN:
+
+Table:
+
+HIGH LEVEL TEST PLAN
+
+Test ID| Description | EXP I/P | EXP O/P | Actual O/p
+-------|-------------|---------|---------|------------
+H_01|select number |Choice |Success|Success
+H_02|Player's turn |Choice |Success|Success
+
+LOW LEVEL TEST PLAN
+
+Test ID| HL_ID| Description | player turn | computer turn | Actual O/p |Type of test
+-------|-------------|---------|---------|---------------|-------------|-----------
+L_01|H_01|selecting 1|rock| paper|player :0 ,Computer:1|Requirement based
+L_02|H_01|selecting 2|scissor|scissor|player :1 ,Computer:1|Requirement based
+
+
+
+
 OUTPUT:
 
 ![Screenshot (69)](https://user-images.githubusercontent.com/89644963/132465485-ce97ff9a-0991-4871-aac0-7c91852485c6.png)
