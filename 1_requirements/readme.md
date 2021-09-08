@@ -53,16 +53,16 @@ This code asks the user to enter  1 , 2 , or 3. Each number stands for a differe
 
 HIGH LEVEL REQUIREMENTA
 
-Id| Description|Category|status
---------------------------------
-HR01| User shall be able to provide Player's turn|Technical | Implemented
-HR02| User shall be able to provide computer's turn| Technical | Implemented
+Id  | Description                                   |Category    |status
+----|-----------------------------------------------|------------|--------
+HR01| User shall be able to provide Player's turn   |Technical | Implemented
+HR02| User shall be able to provide computer's turn | Technical | Implemented
 HR03|User shall be able to provide the prefered options|Technical|Implemented
 
 LOW LEVEL REQUIREMENTS
 
 Id| Description|HRId|status
---------------------------------
+-----|----------|-------|----------
 LR01| Checks if all details provide for player's turn| HR01|Implemented
 LR02 | Checks all the prefered options|HR03|Implemented
 
