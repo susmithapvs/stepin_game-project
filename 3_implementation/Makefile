@@ -8,7 +8,7 @@ target: main.c
 BUILD=BUILD
 
 #source code files
-SRC=main.code
+SRC=main.c
 
 all:$(SRC)$(BUILD)
 
